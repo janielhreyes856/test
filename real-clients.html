@@ -13,25 +13,26 @@
 
 <header id="navbar">
   <div class="nav-inner">
-    <a href="index.html" class="nav-logo"><img src="logo-icon.svg" alt="" class="logo-icon"/><span>Star<strong>Media</strong></span></a>
-    <nav class="nav-links" id="navLinks">
-      <a href="index.html" class="nav-link">Home</a>
-      <a href="about.html" class="nav-link">About</a>
-      <a href="services.html" class="nav-link">Services</a>
-      <div class="nav-dropdown">
-        <button class="nav-link dropdown-toggle active">Our Work ▾</button>
-        <div class="dropdown-menu">
-          <a href="templates.html" class="dropdown-item">Templates</a>
-          <a href="real-clients.html" class="dropdown-item">Real Clients</a>
-        </div>
-      </div>
-      <a href="reviews.html" class="nav-link">Reviews</a>
-      <a href="contact.html" class="nav-link">Contact</a>
+    <a href="index.html" class="nav-logo" aria-label="Star Media home">
+      <img src="logo-icon.svg" alt="Star Media logo" class="logo-icon" />
+    </a>
+
+    <nav class="nav-links" id="navLinks" aria-label="Primary navigation">
+      <a href="index.html" class="nav-link nav-red">Home</a>
+      <a href="about.html" class="nav-link nav-blue">About</a>
+      <a href="services.html" class="nav-link nav-yellow">Workshops</a>
+      <a href="reviews.html" class="nav-link nav-green">Blog</a>
+      <a href="real-clients.html" class="nav-link nav-blue active">Support Us</a>
+      <a href="contact.html" class="nav-link nav-yellow">Contact</a>
+
       <a href="https://www.instagram.com/" target="_blank" class="nav-ig" aria-label="Instagram">
         <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg>
       </a>
     </nav>
-    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
   </div>
 </header>
 
