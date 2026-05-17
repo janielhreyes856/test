@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Templates – Star Media</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<header id="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo"><img src="logo-icon.svg" alt="" class="logo-icon"/><span>Star<strong>Media</strong></span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="services.html" class="nav-link">Services</a>
+      <div class="nav-dropdown">
+        <button class="nav-link dropdown-toggle active">Our Work ▾</button>
+        <div class="dropdown-menu">
+          <a href="templates.html" class="dropdown-item">Templates</a>
+          <a href="real-clients.html" class="dropdown-item">Real Clients</a>
+        </div>
+      </div>
+      <a href="reviews.html" class="nav-link">Reviews</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+      <a href="https://www.instagram.com/" target="_blank" class="nav-ig" aria-label="Instagram">
+        <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg>
+      </a>
+    </nav>
+    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<div class="page-hero">
+  <span class="section-tag">Our Work</span>
+  <h1>Website Templates<br/><span class="accent">By Industry</span></h1>
+  <p>Browse our design library. Every template is fully customizable for your brand.</p>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="All">All</button>
+      <button class="filter-btn" data-filter="Fitness">Fitness</button>
+      <button class="filter-btn" data-filter="Culinary">Culinary / Baking</button>
+      <button class="filter-btn" data-filter="Automotive">Automotive</button>
+      <button class="filter-btn" data-filter="Construction">Construction</button>
+      <button class="filter-btn" data-filter="Landscaping">Landscaping</button>
+      <button class="filter-btn" data-filter="Junk Removal">Junk Removal</button>
+      <button class="filter-btn" data-filter="E-Commerce">Clothing E-Commerce</button>
+      <button class="filter-btn" data-filter="Portfolio">Portfolios</button>
+      <button class="filter-btn" data-filter="Nonprofit">Nonprofit</button>
+    </div>
+
+    <div class="portfolio-full-grid">
+
+      <div class="pf-card" data-cat="Fitness">
+        <div class="pf-img"><img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600&q=80" alt="Fitness"/></div>
+        <div class="pf-info"><span class="pg-tag">Fitness</span><h3>Iron Peak Gym</h3><p>Membership site with class scheduling, trainer bios, and online sign-up.</p></div>
+      </div>
+
+      <div class="pf-card" data-cat="Fitness">
+        <div class="pf-img"><img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=600&q=80" alt="Yoga"/></div>
+        <div class="pf-info"><span class="pg-tag">Fitness</span><h3>Elevate Yoga Studio</h3><p>Calm, elegant studio site with class schedule and online booking.</p></div>
+      </div>
+
+      <div class="pf-card" data-cat="Culinary">
+        <div class="pf-img"><img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&q=80" alt="Bakery"/></div>
+        <div class="pf-info"><span class="pg-tag">Culinary</span><h3>Sweet Crumb Bakery</h3><p>Online ordering and catering portal with gallery and seasonal menu.</p></div>
+      </div>
+
+      <div class="pf-card" data-cat="Culinary">
+        <div class="pf-img"><img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80" alt="Restaurant"/></div>
+        <div class="pf-info"><span class="pg-tag">Culinary</span><h3>Ember & Salt Restaurant</h3><p>Fine dining site with reservations, menu showcase, and chef spotlight.</p></div>
+      </div>
+
+      <div class="pf-card" data-cat="Automotive">
+        <div class="pf-img"><img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=600&q=80" alt="Auto"/></div>
+        <div class="pf-info"><span class="pg-tag">Automotive</span><h3>Prestige Auto Detailing</h3><p>Service booking, pricing packages, and before/after gallery.</p></div>
+      </div>
+
+      <div class="pf-card" data-cat="Automotive">
+        <div class="pf-img"><img src="https://images.unsplash.com/photo-1625047509248-ec889cbff17f?w=600&q=80" alt="Auto shop"/></div>
+        <div class="pf-info"><span class="pg-tag">Automotive</span><h3>Ironclad Auto Repair</h3><p>Shop site with services list, appointment scheduling, and reviews.</p></div>
+      </div>
+
+      <div class="pf-card" data-cat="Construction">
+        <div class="pf-img"><img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=80" alt="Construction"/></div>
+        <div class="pf-info"><span class="pg-tag">Construction</span><h3>Rockford Contracting</h3><p>Project portfolio, service areas, licensing info, and quote form.</p></div>
+      </div>
+
+      <div class="pf-card" data-cat="Construction">
+        <div class="pf-img"><img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=600&q=80" alt="Remodel"/></div>
+        <div class="pf-info"><span class="pg-tag">Construction</span><h3>Summit Home Remodeling</h3><p>Kitchen & bath remodel showcase with interactive before/after sliders.</p></div>
+      </div>
+
+      <div class="pf-card" data-cat="Landscaping">
+        <div class="pf-img"><img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600&q=80" alt="Landscape"/></div>
+        <div class="pf-info"><span class="pg-tag">Landscaping</span><h3>GreenWave Landscaping</h3><p>Services, seasonal packages, and instant quote request form.</p></div>
+      </div>
+
+      <div class="pf-card" data-cat="Landscaping">
+        <div class="pf-img"><img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80" alt="Lawn"/></div>
+        <div class="pf-info"><span class="pg-tag">Landscaping</span><h3>Blade & Bloom Lawn Care</h3><p>Subscription lawn care packages with service zone map.</p></div>
+      </div>
+
+      <div class="pf-card" data-cat="Junk Removal">
+        <div class="pf-img"><img src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=600&q=80" alt="Junk"/></div>
+        <div class="pf-info"><span class="pg-tag">Junk Removal</span><h3>Haul It All</h3><p>Instant online quoting, service area map, and booking calendar.</p></div>
+      </div>
+
+      <div class="pf-card" data-cat="Junk Removal">
+        <div class="pf-img"><img src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=600&q=80" alt="Cleanup"/></div>
+        <div class="pf-info"><span class="pg-tag">Junk Removal</span><h3>Clear Out Co.</h3><p>Minimalist removal site with pricing tiers and same-day booking.</p></div>
+      </div>
+
+      <div class="pf-card" data-cat="E-Commerce">
+        <div class="pf-img"><img src="https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?w=600&q=80" alt="Clothing"/></div>
+        <div class="pf-info"><span class="pg-tag">E-Commerce</span><h3>Apex Threads</h3><p>Full clothing brand store with lookbook, size guide, and checkout.</p></div>
+      </div>
+
+      <div class="pf-card" data-cat="E-Commerce">
+        <div class="pf-img"><img src="https://images.unsplash.com/photo-1523381294911-8d3cead13475?w=600&q=80" alt="Streetwear"/></div>
+        <div class="pf-info"><span class="pg-tag">E-Commerce</span><h3>Void Streetwear</h3><p>Drop-style releases, limited collections, and loyalty rewards.</p></div>
+      </div>
+
+      <div class="pf-card" data-cat="Portfolio">
+        <div class="pf-img"><img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&q=80" alt="Portfolio"/></div>
+        <div class="pf-info"><span class="pg-tag">Portfolio</span><h3>Creative Director Portfolio</h3><p>Case study-driven portfolio with animations and project deep-dives.</p></div>
+      </div>
+
+      <div class="pf-card" data-cat="Portfolio">
+        <div class="pf-img"><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80" alt="Personal"/></div>
+        <div class="pf-info"><span class="pg-tag">Portfolio</span><h3>Personal Brand Portfolio</h3><p>Clean, editorial portfolio for freelancers and consultants.</p></div>
+      </div>
+
+      <div class="pf-card" data-cat="Nonprofit">
+        <div class="pf-img"><img src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=600&q=80" alt="Nonprofit"/></div>
+        <div class="pf-info"><span class="pg-tag">Nonprofit</span><h3>Bright Future Foundation</h3><p>Donation platform, volunteer sign-up, impact reports, and events.</p></div>
+      </div>
+
+      <div class="pf-card" data-cat="Nonprofit">
+        <div class="pf-img"><img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=600&q=80" alt="Community"/></div>
+        <div class="pf-info"><span class="pg-tag">Nonprofit</span><h3>Community Roots Org</h3><p>Community-first site with program directories and donor portal.</p></div>
+      </div>
+
+    </div>
+
+    <div class="center-btn" style="margin-top:64px;">
+      <a href="contact.html" class="btn-primary">Want This For Your Business?</a>
+      <a href="real-clients.html" class="btn-ghost">See Real Clients →</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <a href="index.html" class="nav-logo footer-logo"><img src="logo-icon.svg" alt="" class="logo-icon"/><span>Star<strong>Media</strong></span></a>
+      <p>Building websites that grow businesses — one pixel at a time.</p>
+      <a href="https://www.instagram.com/" target="_blank" class="footer-ig"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg>@starmedia</a>
+    </div>
+    <div class="footer-links">
+      <div class="footer-col"><h4>Pages</h4><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="reviews.html">Reviews</a><a href="contact.html">Contact</a></div>
+      <div class="footer-col"><h4>Our Work</h4><a href="templates.html">Templates</a><a href="real-clients.html">Real Clients</a></div>
+      <div class="footer-col"><h4>Industries</h4><a href="templates.html?cat=Fitness">Fitness</a><a href="templates.html?cat=Culinary">Culinary</a><a href="templates.html?cat=Automotive">Automotive</a><a href="templates.html?cat=Construction">Construction</a><a href="templates.html?cat=Landscaping">Landscaping</a></div>
+    </div>
+  </div>
+  <div class="footer-bottom"><p>© 2025 Star Media. All rights reserved.</p></div>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>

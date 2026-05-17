@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Chevron / mountain shape -->
+  <path d="M10 72 L50 22 L90 72" stroke="#21C5D6" stroke-width="14" stroke-linecap="square" stroke-linejoin="miter" fill="none"/>
+  <!-- 4-point star -->
+  <path d="M50 52 L53.5 62 L64 62 L55.5 68 L58.5 78 L50 72 L41.5 78 L44.5 68 L36 62 L46.5 62 Z" fill="#21C5D6" opacity="0"/>
+  <!-- Cleaner 4-point star -->
+  <path d="M50 45 L52 55 L62 57 L52 59 L50 69 L48 59 L38 57 L48 55 Z" fill="#21C5D6"/>
+</svg>

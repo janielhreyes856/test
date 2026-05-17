@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact – Star Media</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<header id="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo"><img src="logo-icon.svg" alt="" class="logo-icon"/><span>Star<strong>Media</strong></span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="services.html" class="nav-link">Services</a>
+      <div class="nav-dropdown">
+        <button class="nav-link dropdown-toggle">Our Work ▾</button>
+        <div class="dropdown-menu">
+          <a href="templates.html" class="dropdown-item">Templates</a>
+          <a href="real-clients.html" class="dropdown-item">Real Clients</a>
+        </div>
+      </div>
+      <a href="reviews.html" class="nav-link">Reviews</a>
+      <a href="contact.html" class="nav-link active">Contact</a>
+      <a href="https://www.instagram.com/" target="_blank" class="nav-ig" aria-label="Instagram">
+        <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg>
+      </a>
+    </nav>
+    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<div class="page-hero">
+  <span class="section-tag">Get In Touch</span>
+  <h1>Let's Build Something<br/><span class="accent">Great Together</span></h1>
+  <p>Free discovery call. No commitment. Just a conversation about your vision.</p>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="contact-grid">
+
+      <div class="contact-info">
+        <span class="section-tag">Contact Us</span>
+        <h2>We'd Love to Hear<br/>About Your <span class="accent">Project</span></h2>
+        <p>Whether you need a brand new site, a redesign, or just have questions — reach out and we'll get back to you within 24 hours.</p>
+
+        <div class="contact-detail">
+          <div class="cd-icon">📧</div>
+          <div class="cd-text">
+            <strong>Email Us</strong>
+            <span>hello@starmedia.dev</span>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <div class="cd-icon">📱</div>
+          <div class="cd-text">
+            <strong>Call or Text</strong>
+            <span>(555) 212-7400</span>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <div class="cd-icon">📍</div>
+          <div class="cd-text">
+            <strong>Location</strong>
+            <span>Remote — Serving Clients Nationwide</span>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <div class="cd-icon">
+            <svg width="20" height="20" fill="none" stroke="var(--cyan)" stroke-width="1.8" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.2" fill="var(--cyan)" stroke="none"/></svg>
+          </div>
+          <div class="cd-text">
+            <strong>Instagram</strong>
+            <a href="https://www.instagram.com/" target="_blank" style="color:var(--cyan);font-size:.85rem;">@starmedia</a>
+          </div>
+        </div>
+
+        <div style="margin-top:40px;background:var(--light);border:1px solid var(--border);border-radius:var(--radius);padding:28px;">
+          <h4 style="font-family:var(--font-head);font-weight:700;color:var(--dark);margin-bottom:8px;">⚡ Response Time</h4>
+          <p style="font-size:.88rem;color:var(--muted);line-height:1.6;">We typically respond within a few hours during business hours. For urgent requests, text us directly.</p>
+        </div>
+      </div>
+
+      <div>
+        <div class="contact-form" id="contactFormWrapper">
+          <h3>Tell Us About Your Project</h3>
+          <form id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" placeholder="Alex" required />
+              </div>
+              <div class="form-group">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" placeholder="Carter" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" placeholder="alex@yourbusiness.com" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number (optional)</label>
+              <input type="tel" id="phone" placeholder="(555) 000-0000" />
+            </div>
+            <div class="form-group">
+              <label for="industry">Your Industry</label>
+              <select id="industry">
+                <option value="">Select your industry...</option>
+                <option>Fitness / Gym</option>
+                <option>Culinary / Baking</option>
+                <option>Automotive</option>
+                <option>Construction / Contracting</option>
+                <option>Landscaping</option>
+                <option>Junk Removal</option>
+                <option>Clothing / E-Commerce</option>
+                <option>Portfolio / Personal Brand</option>
+                <option>Nonprofit</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="service">What Do You Need?</label>
+              <select id="service">
+                <option value="">Select a service...</option>
+                <option>New Website (Starter)</option>
+                <option>New Website (Professional)</option>
+                <option>E-Commerce Store</option>
+                <option>Website Redesign</option>
+                <option>SEO / Performance</option>
+                <option>Branding / Logo</option>
+                <option>Monthly Maintenance</option>
+                <option>Not Sure Yet</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="budget">Approximate Budget</label>
+              <select id="budget">
+                <option value="">Select a range...</option>
+                <option>Under $500</option>
+                <option>$500 – $1,000</option>
+                <option>$1,000 – $2,500</option>
+                <option>$2,500 – $5,000</option>
+                <option>$5,000+</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Tell Us More</label>
+              <textarea id="message" placeholder="Describe your business, your goals, and anything else we should know..."></textarea>
+            </div>
+            <button type="submit" class="btn-primary form-submit">Send Message →</button>
+          </form>
+          <div class="form-success" id="formSuccess">
+            <div class="success-icon">🎉</div>
+            <h4>Message Received!</h4>
+            <p>We'll be in touch within 24 hours. Get excited — something great is coming.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <a href="index.html" class="nav-logo footer-logo"><img src="logo-icon.svg" alt="" class="logo-icon"/><span>Star<strong>Media</strong></span></a>
+      <p>Building websites that grow businesses — one pixel at a time.</p>
+      <a href="https://www.instagram.com/" target="_blank" class="footer-ig"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg>@starmedia</a>
+    </div>
+    <div class="footer-links">
+      <div class="footer-col"><h4>Pages</h4><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="reviews.html">Reviews</a><a href="contact.html">Contact</a></div>
+      <div class="footer-col"><h4>Our Work</h4><a href="templates.html">Templates</a><a href="real-clients.html">Real Clients</a></div>
+      <div class="footer-col"><h4>Industries</h4><a href="templates.html?cat=Fitness">Fitness</a><a href="templates.html?cat=Culinary">Culinary</a><a href="templates.html?cat=Automotive">Automotive</a><a href="templates.html?cat=Construction">Construction</a><a href="templates.html?cat=Landscaping">Landscaping</a></div>
+    </div>
+  </div>
+  <div class="footer-bottom"><p>© 2025 Star Media. All rights reserved.</p></div>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>

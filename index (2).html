@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Star Media – Web Development</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- ── NAV ───────────────────────────────────────────────────────── -->
+<header id="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <img src="logo-icon.svg" alt="Star Media icon" class="logo-icon" />
+      <span>Star<strong>Media</strong></span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html" class="nav-link active">Home</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="services.html" class="nav-link">Services</a>
+
+      <!-- Dropdown -->
+      <div class="nav-dropdown">
+        <button class="nav-link dropdown-toggle">Our Work ▾</button>
+        <div class="dropdown-menu">
+          <a href="templates.html" class="dropdown-item">Templates</a>
+          <a href="real-clients.html" class="dropdown-item">Real Clients</a>
+        </div>
+      </div>
+
+      <a href="reviews.html" class="nav-link">Reviews</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+
+      <a href="https://www.instagram.com/" target="_blank" class="nav-ig" aria-label="Instagram">
+        <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg>
+      </a>
+    </nav>
+
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ── HERO ──────────────────────────────────────────────────────── -->
+<section class="hero" id="home">
+  <div class="hero-bg-grid"></div>
+  <div class="hero-orb hero-orb-1"></div>
+  <div class="hero-orb hero-orb-2"></div>
+
+  <div class="hero-content">
+    <div class="hero-badge">✦ Web Development Studio</div>
+    <h1 class="hero-headline">
+      We Build Websites<br/>
+      <span class="headline-accent">That Work.</span>
+    </h1>
+    <p class="hero-sub">Star Media crafts fast, beautiful, conversion-driven websites for businesses ready to grow. From custom code to full e-commerce — we've got you covered.</p>
+    <div class="hero-cta-row">
+      <a href="contact.html" class="btn-primary">Start a Project</a>
+      <a href="templates.html" class="btn-ghost">Browse Our Work →</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-num">50+</span><span class="stat-label">Projects Launched</span></div>
+      <div class="stat-div"></div>
+      <div class="stat"><span class="stat-num">100%</span><span class="stat-label">Client Satisfaction</span></div>
+      <div class="stat-div"></div>
+      <div class="stat"><span class="stat-num">10+</span><span class="stat-label">Industries Served</span></div>
+    </div>
+  </div>
+
+  <div class="hero-visual">
+    <div class="browser-mock">
+      <div class="browser-bar">
+        <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+        <div class="browser-url">starmedia.dev</div>
+      </div>
+      <div class="browser-body">
+        <img src="https://images.unsplash.com/photo-1555421689-491a97ff2040?w=700&q=80" alt="Web design preview" />
+      </div>
+    </div>
+    <div class="float-card fc-1">⚡ Lightning Fast</div>
+    <div class="float-card fc-2">📱 Mobile-First</div>
+    <div class="float-card fc-3">🎯 Conversion Ready</div>
+  </div>
+</section>
+
+<!-- ── MARQUEE ───────────────────────────────────────────────────── -->
+<div class="marquee-wrap">
+  <div class="marquee-track">
+    <span>Fitness</span><span>✦</span>
+    <span>Culinary</span><span>✦</span>
+    <span>Automotive</span><span>✦</span>
+    <span>Construction</span><span>✦</span>
+    <span>Landscaping</span><span>✦</span>
+    <span>Junk Removal</span><span>✦</span>
+    <span>E-Commerce</span><span>✦</span>
+    <span>Nonprofits</span><span>✦</span>
+    <span>Portfolios</span><span>✦</span>
+    <span>Fitness</span><span>✦</span>
+    <span>Culinary</span><span>✦</span>
+    <span>Automotive</span><span>✦</span>
+    <span>Construction</span><span>✦</span>
+    <span>Landscaping</span><span>✦</span>
+    <span>Junk Removal</span><span>✦</span>
+    <span>E-Commerce</span><span>✦</span>
+    <span>Nonprofits</span><span>✦</span>
+    <span>Portfolios</span><span>✦</span>
+  </div>
+</div>
+
+<!-- ── SERVICES SNAPSHOT ─────────────────────────────────────────── -->
+<section class="section services-snap" id="services">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">What We Do</span>
+      <h2>Everything You Need<br/><span class="accent">To Win Online</span></h2>
+    </div>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="sc-icon">🌐</div>
+        <h3>Custom Websites</h3>
+        <p>Hand-coded, pixel-perfect sites built for speed, SEO, and conversions. No templates — built from scratch for your brand.</p>
+        <a href="services.html" class="sc-link">Learn more →</a>
+      </div>
+      <div class="service-card featured">
+        <div class="sc-icon">🛒</div>
+        <h3>E-Commerce Stores</h3>
+        <p>Full-featured online stores with seamless checkout, inventory management, and beautiful product displays.</p>
+        <a href="services.html" class="sc-link">Learn more →</a>
+      </div>
+      <div class="service-card">
+        <div class="sc-icon">📈</div>
+        <h3>SEO & Performance</h3>
+        <p>We optimize every site for search engines and Core Web Vitals — so clients actually find you.</p>
+        <a href="services.html" class="sc-link">Learn more →</a>
+      </div>
+      <div class="service-card">
+        <div class="sc-icon">🎨</div>
+        <h3>Branding & Design</h3>
+        <p>Logos, color systems, and complete brand identities that make your business unforgettable.</p>
+        <a href="services.html" class="sc-link">Learn more →</a>
+      </div>
+      <div class="service-card">
+        <div class="sc-icon">🔧</div>
+        <h3>Maintenance & Support</h3>
+        <p>Ongoing updates, security patches, and site monitoring so your site stays fast and secure.</p>
+        <a href="services.html" class="sc-link">Learn more →</a>
+      </div>
+      <div class="service-card">
+        <div class="sc-icon">📱</div>
+        <h3>Mobile Optimization</h3>
+        <p>Every site we build is mobile-first — flawless on every screen, every device, every time.</p>
+        <a href="services.html" class="sc-link">Learn more →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── PORTFOLIO PREVIEW ─────────────────────────────────────────── -->
+<section class="section portfolio-preview">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Our Work</span>
+      <h2>Built for Every<br/><span class="accent">Industry</span></h2>
+      <p class="section-desc">From gyms to restaurants, contractors to clothing brands — we build for all of them.</p>
+    </div>
+
+    <div class="portfolio-grid-home">
+      <div class="pg-card" data-cat="Fitness">
+        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600&q=80" alt="Fitness site" />
+        <div class="pg-overlay">
+          <span class="pg-tag">Fitness</span>
+          <h4>Iron Peak Gym</h4>
+          <p>Membership site with class scheduling</p>
+        </div>
+      </div>
+      <div class="pg-card" data-cat="Culinary">
+        <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&q=80" alt="Bakery site" />
+        <div class="pg-overlay">
+          <span class="pg-tag">Culinary</span>
+          <h4>Sweet Crumb Bakery</h4>
+          <p>Online ordering & catering portal</p>
+        </div>
+      </div>
+      <div class="pg-card pg-tall" data-cat="E-Commerce">
+        <img src="https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?w=600&q=80" alt="Clothing store" />
+        <div class="pg-overlay">
+          <span class="pg-tag">E-Commerce</span>
+          <h4>Apex Threads</h4>
+          <p>Full clothing brand store</p>
+        </div>
+      </div>
+      <div class="pg-card" data-cat="Automotive">
+        <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=600&q=80" alt="Auto site" />
+        <div class="pg-overlay">
+          <span class="pg-tag">Automotive</span>
+          <h4>Prestige Auto Detailing</h4>
+          <p>Booking & services showcase</p>
+        </div>
+      </div>
+      <div class="pg-card" data-cat="Construction">
+        <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=80" alt="Construction site" />
+        <div class="pg-overlay">
+          <span class="pg-tag">Construction</span>
+          <h4>Rockford Contracting</h4>
+          <p>Project portfolio & quote request</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="center-btn">
+      <a href="templates.html" class="btn-primary">View All Templates</a>
+      <a href="real-clients.html" class="btn-ghost">See Real Clients →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── PROCESS ───────────────────────────────────────────────────── -->
+<section class="section process-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">How It Works</span>
+      <h2>Simple Process,<br/><span class="accent">Remarkable Results</span></h2>
+    </div>
+    <div class="process-steps">
+      <div class="process-step">
+        <div class="step-num">01</div>
+        <h3>Discovery Call</h3>
+        <p>We learn about your business, goals, and vision. No commitment — just a conversation.</p>
+      </div>
+      <div class="process-arrow">→</div>
+      <div class="process-step">
+        <div class="step-num">02</div>
+        <h3>Design & Scope</h3>
+        <p>We deliver a custom proposal with mockups, timeline, and transparent pricing.</p>
+      </div>
+      <div class="process-arrow">→</div>
+      <div class="process-step">
+        <div class="step-num">03</div>
+        <h3>Build & Review</h3>
+        <p>We build your site with regular check-ins and revisions until it's perfect.</p>
+      </div>
+      <div class="process-arrow">→</div>
+      <div class="process-step">
+        <div class="step-num">04</div>
+        <h3>Launch & Grow</h3>
+        <p>We launch your site and provide training, support, and ongoing optimization.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── TESTIMONIALS SNAP ──────────────────────────────────────────── -->
+<section class="section reviews-snap">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Reviews</span>
+      <h2>What Our Clients<br/><span class="accent">Are Saying</span></h2>
+    </div>
+    <div class="reviews-grid-home">
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>"Star Media completely transformed our online presence. Our bookings doubled in the first month after launch."</p>
+        <div class="reviewer"><div class="reviewer-avatar">JM</div><div><strong>Jason M.</strong><br/><small>Prestige Auto Detailing</small></div></div>
+      </div>
+      <div class="review-card featured-review">
+        <div class="stars">★★★★★</div>
+        <p>"I didn't know what I wanted and they figured it out for me. The site looks 10x better than I imagined. Best investment we've made."</p>
+        <div class="reviewer"><div class="reviewer-avatar">SL</div><div><strong>Sarah L.</strong><br/><small>Sweet Crumb Bakery</small></div></div>
+      </div>
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>"Professional, fast, and delivered exactly what we asked for. They even thought of things we hadn't considered."</p>
+        <div class="reviewer"><div class="reviewer-avatar">DK</div><div><strong>David K.</strong><br/><small>Rockford Contracting</small></div></div>
+      </div>
+    </div>
+    <div class="center-btn"><a href="reviews.html" class="btn-ghost">Read All Reviews →</a></div>
+  </div>
+</section>
+
+<!-- ── CTA BANNER ────────────────────────────────────────────────── -->
+<section class="cta-banner">
+  <div class="cta-orb"></div>
+  <div class="container cta-inner">
+    <h2>Ready to Build Something<br/><span>Great?</span></h2>
+    <p>Let's talk about your project. Free discovery call, no pressure.</p>
+    <a href="contact.html" class="btn-white">Book a Free Call →</a>
+  </div>
+</section>
+
+<!-- ── FOOTER ────────────────────────────────────────────────────── -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <a href="index.html" class="nav-logo footer-logo">
+        <img src="logo-icon.svg" alt="" class="logo-icon" />
+        <span>Star<strong>Media</strong></span>
+      </a>
+      <p>Building websites that grow businesses — one pixel at a time.</p>
+      <a href="https://www.instagram.com/" target="_blank" class="footer-ig">
+        <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg>
+        @starmedia
+      </a>
+    </div>
+    <div class="footer-links">
+      <div class="footer-col">
+        <h4>Pages</h4>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Our Work</h4>
+        <a href="templates.html">Templates</a>
+        <a href="real-clients.html">Real Clients</a>
+      </div>
+      <div class="footer-col">
+        <h4>Industries</h4>
+        <a href="templates.html?cat=Fitness">Fitness</a>
+        <a href="templates.html?cat=Culinary">Culinary</a>
+        <a href="templates.html?cat=Automotive">Automotive</a>
+        <a href="templates.html?cat=Construction">Construction</a>
+        <a href="templates.html?cat=Landscaping">Landscaping</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 Star Media. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
