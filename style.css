@@ -16,7 +16,7 @@
   --shadow-lg: 0 8px 60px rgba(33,197,214,0.18);
   --radius: 16px;
   --radius-sm: 10px;
-  --font-head: 'Syne', sans-serif;
+  --font-head: 'Exo 2', sans-serif;
   --font-body: 'DM Sans', sans-serif;
 }
 
@@ -134,7 +134,7 @@ img { max-width: 100%; display: block; }
   font-family: var(--font-head); font-weight: 700; font-size: .9rem;
   padding: 14px 28px; border-radius: 50px;
   transition: transform .2s, box-shadow .2s, background .2s;
-  letter-spacing: .03em;
+  letter-spacing: .01em;
   border: none; cursor: pointer;
 }
 .btn-primary:hover {
@@ -149,7 +149,7 @@ img { max-width: 100%; display: block; }
   padding: 14px 28px; border-radius: 50px;
   border: 2px solid var(--cyan);
   transition: background .2s, color .2s, transform .2s;
-  letter-spacing: .03em;
+  letter-spacing: .01em;
 }
 .btn-ghost:hover { background: var(--light); transform: translateY(-2px); }
 .btn-white {
@@ -158,7 +158,7 @@ img { max-width: 100%; display: block; }
   font-family: var(--font-head); font-weight: 700; font-size: .95rem;
   padding: 16px 36px; border-radius: 50px;
   transition: transform .2s, box-shadow .2s;
-  letter-spacing: .03em;
+  letter-spacing: .01em;
 }
 .btn-white:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(0,0,0,.12); }
 
@@ -203,7 +203,7 @@ img { max-width: 100%; display: block; }
   font-family: var(--font-head); font-weight: 700; font-size: .8rem;
   padding: 8px 18px; border-radius: 50px;
   border: 1px solid var(--mid);
-  letter-spacing: .08em; margin-bottom: 24px;
+  letter-spacing: .04em; margin-bottom: 24px;
   animation: fadeUp .6s ease both;
 }
 .hero-headline {
@@ -310,7 +310,7 @@ img { max-width: 100%; display: block; }
   font-family: var(--font-head);
   font-weight: 700; font-size: .88rem;
   color: rgba(255,255,255,0.85);
-  letter-spacing: .06em;
+  letter-spacing: .03em;
   text-transform: uppercase;
 }
 @keyframes marquee {
@@ -328,7 +328,7 @@ img { max-width: 100%; display: block; }
   font-family: var(--font-head); font-weight: 700; font-size: .78rem;
   padding: 6px 16px; border-radius: 50px;
   border: 1px solid var(--mid);
-  letter-spacing: .08em; text-transform: uppercase;
+  letter-spacing: .04em; text-transform: uppercase;
   margin-bottom: 16px;
 }
 .section-header h2 {
@@ -421,7 +421,7 @@ img { max-width: 100%; display: block; }
   background: var(--cyan); color: var(--white);
   font-family: var(--font-head); font-size: .72rem; font-weight: 700;
   padding: 4px 12px; border-radius: 50px;
-  letter-spacing: .06em; text-transform: uppercase;
+  letter-spacing: .03em; text-transform: uppercase;
   margin-bottom: 8px; align-self: flex-start;
 }
 .pg-overlay h4 {
@@ -545,7 +545,7 @@ img { max-width: 100%; display: block; }
 }
 .footer-col h4 {
   font-family: var(--font-head); font-size: .78rem; font-weight: 700;
-  text-transform: uppercase; letter-spacing: .1em;
+  text-transform: uppercase; letter-spacing: .04em;
   color: var(--white); margin-bottom: 16px;
 }
 .footer-col a {
@@ -626,7 +626,7 @@ img { max-width: 100%; display: block; }
   background: var(--cyan); color: var(--white);
   font-family: var(--font-head); font-weight: 700; font-size: .72rem;
   padding: 4px 16px; border-radius: 50px;
-  letter-spacing: .06em;
+  letter-spacing: .03em;
 }
 .pricing-card h3 { font-family: var(--font-head); font-size: 1.1rem; font-weight: 700; color: var(--dark); margin-bottom: 8px; }
 .price { font-family: var(--font-head); font-size: 2.8rem; font-weight: 800; color: var(--cyan); line-height: 1; margin: 16px 0 4px; }
@@ -772,7 +772,7 @@ img { max-width: 100%; display: block; }
 .client-img { height: 240px; overflow: hidden; }
 .client-img img { width: 100%; height: 100%; object-fit: cover; }
 .client-info { padding: 28px 32px; }
-.client-tag { display: inline-block; background: var(--light); color: var(--cyan); font-family: var(--font-head); font-weight: 700; font-size: .72rem; padding: 4px 12px; border-radius: 50px; letter-spacing: .06em; margin-bottom: 12px; }
+.client-tag { display: inline-block; background: var(--light); color: var(--cyan); font-family: var(--font-head); font-weight: 700; font-size: .72rem; padding: 4px 12px; border-radius: 50px; letter-spacing: .03em; margin-bottom: 12px; }
 .client-info h3 { font-family: var(--font-head); font-size: 1.15rem; font-weight: 700; color: var(--dark); margin-bottom: 8px; }
 .client-info p { font-size: .9rem; color: var(--muted); line-height: 1.6; margin-bottom: 16px; }
 .client-results { display: flex; gap: 24px; }
